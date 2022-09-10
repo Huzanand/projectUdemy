@@ -43,4 +43,35 @@ function findMaxNumber(a, b, c, d){
     }
 }
 
-console.log(findMaxNumber(1, 5, '6', 11))
+// console.log(findMaxNumber(1, 5, '6', 11))
+
+
+function fib(a) {
+    let str = '0';
+    let s1 = 0;
+    let s2 = 1;
+    let temp = 0;
+    if(isNaN(a) || !Number.isInteger(a) || a <= 0){
+        return ' ';
+    } else{
+        for (let i = 0; i < a - 1; i++){
+            if( i == 0) str += ' ' + (s1 + s2);
+            else{
+                str += ' ' + (s1 + s2);
+            
+                temp = s1;
+                s1 = s2;
+                s2 += temp
+            }
+        }
+        return str;
+    }
+}
+
+
+console.log(fib(7));
+
+
+
+
+
