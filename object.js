@@ -35,9 +35,3 @@ function showProgrammingLangs(plan) {
             return str;
    } else return str;
 }
-
-
-// const f = {};
-
-// console.log(Object.keys(personalPlanPeter['skills']['programmingLangs']).length);
-console.log(showProgrammingLangs(personalPlanPeter))
