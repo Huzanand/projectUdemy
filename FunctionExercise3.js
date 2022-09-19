@@ -52,16 +52,16 @@ function fib(a) {
     let s2 = 1;
     let temp = 0;
     if(isNaN(a) || !Number.isInteger(a) || a <= 0){
-        return ' ';
+        return '';
     } else{
         for (let i = 0; i < a - 1; i++){
-            if( i == 0) str += ' ' + (s1 + s2);
+            if( i === 0) str += ' ' + (s1 + s2);
             else{
                 str += ' ' + (s1 + s2);
             
                 temp = s1;
                 s1 = s2;
-                s2 += temp
+                s2 += temp;
             }
         }
         return str;
@@ -70,6 +70,7 @@ function fib(a) {
 
 
 console.log(fib(7));
+
 
 
 
