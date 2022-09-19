@@ -37,8 +37,6 @@ let a = getMutchResult(3, 10);
 console.log(a);
 
 
-
-
 // Место для первой задачи:
 function getTimeFromMinutes(a) {
     if (!Number.isInteger(a) || a < 0 || typeof a !== 'number') {
