@@ -1,3 +1,0 @@
-# projectUdemy
-UdemyCouse
-esfsfesfwefw
